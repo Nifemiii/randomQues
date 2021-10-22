@@ -1,0 +1,7 @@
+<span class="span">{{num1}} + {{num2}}</span>
+<input type="text" [(ngModel)] = "ans" (keypress)="onKeypressEvent($event)" class="input">
+
+<p class="attempts">
+  <span class="cor">CORRECT ATTEMPTS = <span class="correct">{{right}}</span></span>
+  <span class="cor">INCORRECT ATTEMPTS = <span class="incorrect">{{wrong}}</span></span> 
+</p>

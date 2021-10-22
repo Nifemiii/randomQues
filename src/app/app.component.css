@@ -1,0 +1,29 @@
+.attempts {
+    font-size: 30px;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
+
+.cor {
+    display: block;
+}
+
+.cor:first-child {
+    margin-bottom: 20px;
+}
+
+.span {
+    font-size: 20px;
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.input {
+    padding: 12px;
+}
